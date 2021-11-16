@@ -1,0 +1,21 @@
+{
+    //"version": "0.2.0",
+    "version": "3.0.4",
+    "configurations": [
+    
+        {
+            "name": "PHP-XDEBUG",
+            "type": "php",
+            "request": "launch",
+            "port": 9000
+        },
+        {
+            "name": "Launch currently open script",
+            "type": "php",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${fileDirname}",
+            "port": 9000
+        }
+    ]
+}
